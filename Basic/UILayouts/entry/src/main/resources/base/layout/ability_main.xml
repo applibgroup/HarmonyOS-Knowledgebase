@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    ohos:id="$+id:layoutRoot"
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <!--<com.fractalwrench.harmonybootstrap.sample.components.CircleComponent
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:circleColor="#ff0099"
+        ohos:labelColor="#ffff66"
+        ohos:circleLabel="This is Magenta Circle"
+        ohos:radius="200"
+        />
+-->
+
+    <Button
+        ohos:id="$+id:btn"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:center_in_parent="true"
+        ohos:text_size="20fp"
+        ohos:padding="15vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text="I'm an OHOS Buton component!"
+        />
+
+    <!--Layouts examples-->
+    <!--<DirectionalLayout
+        ohos:id="$+id:directionalParent"
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:margin="10vp"
+        ohos:orientation="vertical">
+
+        <Button
+            ohos:id="$+id:button1"
+            ohos:width="200vp"
+            ohos:height="30vp"
+            ohos:top_margin="8vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:text="button1"
+            ohos:text_size="15fp"
+            />
+        <Button
+            ohos:id="$+id:button2"
+            ohos:width="200vp"
+            ohos:height="30vp"
+            ohos:top_margin="8vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:text="button2"
+            ohos:text_size="15fp"
+            />
+
+        <Button
+            ohos:id="$+id:button3"
+            ohos:width="200vp"
+            ohos:height="30vp"
+            ohos:top_margin="8vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:text="button3"
+            ohos:text_size="15fp"
+            />
+
+        <Button
+            ohos:id="$+id:button4"
+            ohos:width="200vp"
+            ohos:height="30vp"
+            ohos:top_margin="8vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:text="button4"
+            ohos:text_size="15fp"
+            />
+
+    </DirectionalLayout>
+
+    <DependentLayout
+        ohos:below="$id:directionalParent"
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:id="$+id:parent"
+        ohos:height="match_content"
+        ohos:width="match_parent">
+
+        <Text
+            ohos:id="$+id:header"
+            ohos:height="102vp"
+            ohos:width="match_parent"
+            ohos:margin="10vp"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:left_padding="60vp"
+            ohos:max_text_lines="3"
+            ohos:multiple_lines="true"
+            ohos:right_padding="8vp"
+            ohos:text="lorem_ipsum"
+            ohos:text_color="#ffffff"
+            ohos:text_font="sans-serif-light"
+            ohos:text_size="22fp"
+            ohos:top_padding="8vp"
+            />
+
+        <Text
+            ohos:id="$+id:sampleText"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:below="$+id:header"
+            ohos:multiple_lines="true"
+            ohos:padding="16vp"
+            ohos:margin="10vp"
+            ohos:text="lorem_ipsum_large"
+            ohos:text_size="18fp"
+            />
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$+id:header"
+            ohos:align_top="$id:sampleText"
+            ohos:right_of="$+id:sampleText"
+            ohos:background_element="$graphic:background_ability_main"
+            ohos:multiple_lines="true"
+            ohos:padding="16vp"
+            ohos:text="lorem_ipsum_small"
+            ohos:text_size="18fp"
+            />
+
+
+    </DependentLayout>-->
+
+    <!--<StackLayout
+        ohos:id="$+id:singleFrame"
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+        <DependentLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_ability_main"/>
+
+        <DirectionalLayout
+            ohos:background_element="$media:icon"
+            ohos:height="300vp"
+            ohos:width="300vp"/>
+    </StackLayout>-->
+
+    <!--Custom Component-->
+    <!--<com.fractalwrench.harmonybootstrap.sample.components.CustomComponent
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:circleColor="#ff0099"
+        ohos:labelColor="#ffff66"
+        ohos:circleLabel="This is Magenta Circle"/>-->
+
+</DependentLayout>

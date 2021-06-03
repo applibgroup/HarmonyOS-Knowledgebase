@@ -1,0 +1,46 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('D:\\DevEcoWorkspace\\ohos-Bootstrap\\bootstrap.p12')
+            storePassword '0000001BA84901986908F1A1C1268552C042F3800EA0BFD2BDBBDEDDCDDBDA6B39B7DF696C0AF8B14A2C39'
+            keyAlias = 'bootstrap_demo'
+            keyPassword '0000001B86A27115580B19E9D9B104D3BA9E3FD4FF652B690ABEA0968BB6AB4B69C7D8F1A771B948F09224'
+            signAlg = 'SHA256withECDSA'
+            profile file('D:\\DevEcoWorkspace\\ohos-Bootstrap\\BootstrapDebug.p7b')
+            certpath file('D:\\DevEcoWorkspace\\ohos-Bootstrap\\Bootstrap.cer')
+        }
+        release {
+            storeFile file('D:\\DevEcoWorkspace\\ohos-Bootstrap\\bootstrap.p12')
+            storePassword '0000001BBC314D875970ADA1A64544F54786CCBD790F6088AB3946A59ACB58F8782D517B3067A3D8FF278F'
+            keyAlias = 'bootstrap_demo'
+            keyPassword '0000001BB84C49AC9D5E8FF37B862F779D4E347E6F246239B56CBD59262A3F770F5DA16BF7CC499CE8D716'
+            signAlg = 'SHA256withECDSA'
+            profile file('D:\\DevEcoWorkspace\\ohos-Bootstrap\\BootstrapDebug.p7b')
+            certpath file('D:\\DevEcoWorkspace\\ohos-Bootstrap\\Bootstrap.cer')
+        }
+    }
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 5
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testImplementation 'junit:junit:4.13'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.100'
+}
+decc {
+    supportType = ['html', 'xml']
+}

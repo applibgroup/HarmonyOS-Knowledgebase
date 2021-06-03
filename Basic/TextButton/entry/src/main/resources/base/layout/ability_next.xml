@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    >
+    <Text
+        ohos:id="$+id:text_second"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Second Slice"
+        ohos:text_size="30fp"
+        ohos:text_color="$ohos:color:id_color_alert"
+        ohos:center_in_parent="true"
+        />
+    <Text
+        ohos:id="$+id:text_third"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="Added again"
+        ohos:text_size="30fp"
+        ohos:text_color="$ohos:color:id_color_alert"
+        ohos:center_in_parent="true"
+        ohos:below="$id:text_second"
+        />
+
+</DependentLayout>

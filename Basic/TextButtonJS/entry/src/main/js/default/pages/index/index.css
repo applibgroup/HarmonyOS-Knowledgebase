@@ -1,0 +1,18 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 100px;
+}
+.button{
+    margin-top: 20;
+    padding-left: 40;
+    padding-bottom: 20;
+    padding-top: 20;
+    padding-right: 40;
+    font-size: 50px;
+    border-radius: 0px;
+}

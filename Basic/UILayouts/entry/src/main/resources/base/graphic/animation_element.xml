@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                ohos:oneshot="false">
+    <item ohos:element="$media:ic_heart_0" ohos:duration="100"/>
+    <item ohos:element="$media:ic_heart_25" ohos:duration="100"/>
+    <item ohos:element="$media:ic_heart_50" ohos:duration="100"/>
+    <item ohos:element="$media:ic_heart_75" ohos:duration="100"/>
+    <item ohos:element="$media:ic_heart_100" ohos:duration="100"/>
+</animation-list>

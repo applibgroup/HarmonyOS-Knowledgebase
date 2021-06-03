@@ -1,0 +1,7 @@
+<div class="container" style="flex-direction: column;">
+    <text class="title">
+        {{ $t('strings.hello') }} {{ title }}
+    </text>
+    <button  class="button" value="Next" onclick="onClick"></button>
+
+</div>
