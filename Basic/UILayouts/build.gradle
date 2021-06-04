@@ -2,17 +2,6 @@
 apply plugin: 'com.huawei.ohos.app'
 
 ohos {
-    signingConfigs {
-        release {
-            storeFile file('D:\\DevEcoWorkspace\\ohos-Bootstrap\\bootstrap.p12')
-            storePassword '0000001B9E8957F1C0DB39048A5ED42A3F542CB3873118CDFCC2035581B33D557B71D74CAD0487D91387A7'
-            keyAlias = 'bootstrap_demo'
-            keyPassword '0000001B9533B4ACFE1D4EC1F03AFD716E0C5D851D68CA935FFBED549EF9481E1D5D7F9DCDF7B25909E2FC'
-            signAlg = 'SHA256withECDSA'
-            profile file('D:\\DevEcoWorkspace\\ohos-Bootstrap\\BootstrapDebug.p7b')
-            certpath file('D:\\DevEcoWorkspace\\ohos-Bootstrap\\Bootstrap.cer')
-        }
-    }
     compileSdkVersion 5
     defaultConfig {
         compatibleSdkVersion 5
