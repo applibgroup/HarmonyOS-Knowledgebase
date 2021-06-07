@@ -31,6 +31,7 @@ public class MainAbilitySlice extends AbilitySlice {
             @Override
             public void onClick(Component component) {
                 ResultSet resultSet = DbUtils.query(MainAbilitySlice.this);
+                queryResult = new ArrayList<Person>();
                 if(resultSet == null) {
                     return;
                 }
@@ -39,7 +40,6 @@ public class MainAbilitySlice extends AbilitySlice {
                 }
                 if (resultSet.getRowCount() > 0) {
                     while (resultSet.goToNextRow()) {
-                        queryResult = new ArrayList<Person>();
                         Person person = new Person();
                         person.setName(resultSet.getString(resultSet.getColumnIndexForName("name")));
                         person.setLastName(resultSet.getString(resultSet.getColumnIndexForName("lastname")));
