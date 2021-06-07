@@ -31,20 +31,18 @@ public class MainAbilitySlice extends AbilitySlice {
             @Override
             public void onClick(Component component) {
                 ResultSet resultSet = DbUtils.query(MainAbilitySlice.this);
+                queryResult = new ArrayList<Person>();
                 if(resultSet == null) {
                     return;
                 }
                 if(resultSet.getRowCount()==0) {
                     return;
                 }
-                resultSet.goToFirstRow();
-                for(int i=0;i<resultSet.getRowCount();i++) {
-                    if (resultSet.getRowCount() > 0) {
-                        queryResult = new ArrayList<Person>();
+                if (resultSet.getRowCount() > 0) {
+                    while (resultSet.goToNextRow()) {
                         Person person = new Person();
                         person.setName(resultSet.getString(resultSet.getColumnIndexForName("name")));
                         person.setLastName(resultSet.getString(resultSet.getColumnIndexForName("lastname")));
-                        resultSet.goToNextRow();
                         queryResult.add(person);
                     }
                 }
