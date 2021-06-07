@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Rdb"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "name",
+      "value": "Name"
+    },
+    {
+      "name": "lastName",
+      "value": "Last Name"
+    },
+    {
+      "name": "add",
+      "value": "Add"
+    },
+    {
+      "name": "update",
+      "value": "Update"
+    }
+  ]
+}

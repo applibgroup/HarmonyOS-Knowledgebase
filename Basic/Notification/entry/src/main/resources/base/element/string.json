@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Notification"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "NormalContent",
+      "value": "Normal Content"
+    },
+    {
+      "name": "MultiLineContent",
+      "value": "MultiLine Content"
+    },
+    {
+      "name": "PictureContent",
+      "value": "Picture Content"
+    },
+    {
+      "name": "NormalContentLow",
+      "value": "Normal Low priority"
+    },
+    {
+      "name": "secondability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "Dialogs"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "CommonDialog",
+      "value": "Common Dialog"
+    },
+    {
+      "name": "ListDialog",
+      "value": "List Dialog"
+    },
+    {
+      "name": "ListMultiselectDialog",
+      "value": "List Multiselect Dialog"
+    },
+    {
+      "name": "CustomDialog",
+      "value": "Custom Dialog"
+    },
+    {
+      "name": "ToastDialog",
+      "value": "Toast Dialog"
+    },
+    {
+      "name": "toastui",
+      "value": "This is a toast dialog"
+    },
+    {
+      "name": "yes",
+      "value": "Yes"
+    },
+    {
+      "name": "no",
+      "value": "No"
+    }
+  ]
+}
