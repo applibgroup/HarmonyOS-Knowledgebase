@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:common_dialog"
+        ohos:text="$string:CommonDialog"
+        ohos:height="match_content"
+        ohos:width="250vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="10vp"
+        ohos:text_color="$color:white"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:bottom_margin="10vp"
+        ohos:text_size="20fp"
+        ohos:padding="10vp"
+        />
+
+    <Button
+        ohos:id="$+id:list_dialog"
+        ohos:text="$string:ListDialog"
+        ohos:height="match_content"
+        ohos:width="250vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:bottom_margin="10vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text_color="$color:white"
+        ohos:text_size="20fp"
+        ohos:padding="10vp"
+        />
+
+    <Button
+        ohos:id="$+id:list_multiselect_dialog"
+        ohos:text="$string:ListMultiselectDialog"
+        ohos:height="match_content"
+        ohos:width="250vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:bottom_margin="10vp"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text_color="$color:white"
+        ohos:text_size="20fp"
+        ohos:padding="10vp"
+        />
+
+    <Button
+        ohos:id="$+id:custom_dialog"
+        ohos:text="$string:CustomDialog"
+        ohos:height="match_content"
+        ohos:width="250vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text_color="$color:white"
+        ohos:text_size="20fp"
+        ohos:padding="10vp"
+        />
+
+    <Button
+        ohos:id="$+id:toast_dialog"
+        ohos:text="$string:ToastDialog"
+        ohos:top_margin="10vp"
+        ohos:height="match_content"
+        ohos:width="250vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:background_element="$graphic:background_ability_main"
+        ohos:text_color="$color:white"
+        ohos:text_size="20fp"
+        ohos:padding="10vp"
+        />
+
+</DirectionalLayout>

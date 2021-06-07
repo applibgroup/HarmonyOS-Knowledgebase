@@ -1,0 +1,33 @@
+{
+  "strarray": [
+    {
+      "name": "defstr",
+      "value":[
+        {
+          "value": "Hi there!!"
+        },
+        {
+          "value": "Heloo there!!"
+        },
+        {
+          "value": "How are you??!"
+        },
+        {
+          "value": "Heyy there!!"
+        },
+        {
+          "value": "Thanks!!"
+        },
+        {
+          "value": "welcome!!"
+        },
+        {
+          "value": "Helloo World!!"
+        },
+        {
+          "value": "Done!!"
+        }
+      ]
+    }
+  ]
+}
