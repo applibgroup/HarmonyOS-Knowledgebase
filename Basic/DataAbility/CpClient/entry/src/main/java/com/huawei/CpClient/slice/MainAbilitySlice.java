@@ -37,14 +37,12 @@ public class MainAbilitySlice extends AbilitySlice {
                 if(resultSet.getRowCount()==0) {
                     return;
                 }
-                resultSet.goToFirstRow();
-                for(int i=0;i<resultSet.getRowCount();i++) {
-                    if (resultSet.getRowCount() > 0) {
+                if (resultSet.getRowCount() > 0) {
+                    while (resultSet.goToNextRow()) {
                         queryResult = new ArrayList<Person>();
                         Person person = new Person();
                         person.setName(resultSet.getString(resultSet.getColumnIndexForName("name")));
                         person.setLastName(resultSet.getString(resultSet.getColumnIndexForName("lastname")));
-                        resultSet.goToNextRow();
                         queryResult.add(person);
                     }
                 }
